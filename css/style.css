@@ -1,0 +1,77 @@
+/* element selector */
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    p {
+        text-align: justify;
+      }
+    }
+.form-control {
+    width: 60%;
+}
+/* style hp*/
+body{
+    background-color: rgb(119, 71, 71);
+
+}
+
+
+
+.p-2 { 
+padding:  20px;
+}
+
+.row ::after{
+content: "";
+clear: both;
+display: table;
+}
+
+/*style Tablet */
+
+@media screen and  (min-width: 600px){
+    body{
+        background-color: rgb(52, 76, 141);
+    }
+ 
+    .col-md-3 {
+        width: 25%;
+        background-color:  orange;
+        float: left;
+
+    }
+
+    .col-lg-1 {
+        width: 100%;
+        background-color: rgb(156, 69, 69);
+        float:left ;
+    }
+}
+
+/* style deskop */
+@media screen and  (min-width: 992px){
+    body{
+        background-color: rgb(52, 31, 109);
+    }
+    .col-md-3 {
+        width: 25%;
+        background-color:  orange;
+        float: left;
+
+    }
+
+    .col-lg-1 {
+        width: 100%;
+        background-color: rgb(187, 100, 100);
+        float: left;
+    }
+
+ 
+}
+
+    
+
+
